@@ -1,0 +1,31 @@
+{
+  "number": 89,
+  "product_id": "JLZ-EDU-SK-089",
+  "candidate_id": "CAND-022",
+  "chinese_name": "入学测评与分班建议",
+  "english_name": "Intake Assessment and Placement Advisor",
+  "repository_name": "edu-intake-placement-advisor",
+  "repository_url": "https://github.com/jinlize-tech/edu-intake-placement-advisor",
+  "product_type": "Skill",
+  "category": "11 学员成功与家庭服务中心",
+  "batch": 3,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "分班建议表",
+    "依据",
+    "硬约束冲突"
+  ],
+  "optional_outputs": [
+    "备选路径",
+    "试读/过渡建议",
+    "待确认项"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-intake-placement-advisor-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

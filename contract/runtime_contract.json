@@ -1,0 +1,95 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-089",
+  "product_name": "入学测评与分班建议",
+  "product_type": "Skill",
+  "repository_name": "edu-intake-placement-advisor",
+  "repository_url": "https://github.com/jinlize-tech/edu-intake-placement-advisor",
+  "product_version": "1.0.0",
+  "batch": 3,
+  "business_category": "11 学员成功与家庭服务中心",
+  "high_risk": false,
+  "deterministic": false,
+  "agent": false,
+  "core_outputs": [
+    "分班建议表",
+    "依据",
+    "硬约束冲突"
+  ],
+  "optional_outputs": [
+    "备选路径",
+    "试读/过渡建议",
+    "待确认项"
+  ],
+  "all_outputs": [
+    "分班建议表",
+    "依据",
+    "硬约束冲突",
+    "备选路径",
+    "试读/过渡建议",
+    "待确认项"
+  ],
+  "human_review_required": false,
+  "reviewer_role": "业务负责人",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "student_profile",
+    "assessment_results",
+    "course_catalog",
+    "available_classes",
+    "schedule_constraints",
+    "capacity"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "student_profile": {
+      "type": "string"
+    },
+    "assessment_results": {
+      "type": "array"
+    },
+    "course_catalog": {
+      "type": "array"
+    },
+    "available_classes": {
+      "type": "array"
+    },
+    "schedule_constraints": {
+      "type": "array"
+    },
+    "parent_preferences": {
+      "type": "string"
+    },
+    "capacity": {
+      "type": "string"
+    }
+  },
+  "expected_scenario_count": 12,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

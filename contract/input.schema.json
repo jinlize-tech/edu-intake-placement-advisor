@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-089/input.schema.json",
+  "title": "入学测评与分班建议输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "student_profile",
+    "assessment_results",
+    "course_catalog",
+    "available_classes",
+    "schedule_constraints",
+    "capacity"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "student_profile": {
+      "title": "学生基本情况",
+      "description": "年级、学习经历与时间约束；须脱敏",
+      "type": "string",
+      "minLength": 1
+    },
+    "assessment_results": {
+      "title": "测评结果",
+      "description": "测评工具、分数与观察",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "course_catalog": {
+      "title": "课程与级别",
+      "description": "课程目标、先修要求和适合对象",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "available_classes": {
+      "title": "可入班清单",
+      "description": "班型、时间、教师、容量和余位",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "schedule_constraints": {
+      "title": "时间约束",
+      "description": "学生与家庭可上课时段",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true
+      }
+    },
+    "parent_preferences": {
+      "title": "家长偏好",
+      "description": "仅用于约束，不得替代适合度判断",
+      "type": "string",
+      "minLength": 1
+    },
+    "capacity": {
+      "title": "容量规则",
+      "description": "班额和超员边界",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

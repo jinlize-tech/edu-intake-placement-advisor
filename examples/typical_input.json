@@ -1,0 +1,21 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "student_profile": "学生基本情况已核对（脱敏示例）",
+  "assessment_results": [
+    {}
+  ],
+  "course_catalog": [
+    {}
+  ],
+  "available_classes": [
+    {}
+  ],
+  "schedule_constraints": [
+    {}
+  ],
+  "parent_preferences": "家长偏好已核对（脱敏示例）",
+  "capacity": "容量规则已核对（脱敏示例）"
+}
