@@ -9,7 +9,7 @@
   "product_type": "Skill",
   "category": "11 学员成功与家庭服务中心",
   "batch": 3,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "core_outputs": [
     "分班建议表",
@@ -24,8 +24,13 @@
   "high_risk": false,
   "deterministic": false,
   "scenario_count": 12,
-  "package_path": "dist/edu-intake-placement-advisor-v1.0.0.zip",
+  "package_path": "dist/edu-intake-placement-advisor-v1.0.1.zip",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+  "status": "DOCUMENTATION_AND_METADATA_PATCH_1.0.1_BUILT_PENDING_REMOTE_VERIFICATION",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-intake-placement-advisor-v1.0.0.zip",
+  "previous_package_sha256": "B90BC5114CF12FC704821E572FA07E63C5DF10C2E425A88E67B30C38625956BD",
+  "package_state": "PATCH_PACKAGE_V1.0.1_BUILT",
+  "readme_repair": "README_USAGE_INSTALLATION_ALIGNED_WITH_PACKAGE_CONTENTS"
 }

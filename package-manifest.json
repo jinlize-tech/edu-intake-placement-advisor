@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-089",
   "repository_name": "edu-intake-placement-advisor",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-intake-placement-advisor-v1.0.0.zip",
-  "sha256": "B90BC5114CF12FC704821E572FA07E63C5DF10C2E425A88E67B30C38625956BD",
-  "bytes": 40733,
+  "version": "1.0.1",
+  "package_path": "dist/edu-intake-placement-advisor-v1.0.1.zip",
+  "sha256": "D70F046BD28442B81ED6970A5AF185D6320D2BBE8595139D00A6722DC7C654F1",
+  "bytes": 41770,
   "entries": [
     "edu-intake-placement-advisor/README.md",
     "edu-intake-placement-advisor/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:05:38.110731+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-intake-placement-advisor-v1.0.0.zip",
+  "previous_package_sha256": "B90BC5114CF12FC704821E572FA07E63C5DF10C2E425A88E67B30C38625956BD",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
