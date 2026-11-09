@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-089",
+  "repository_name": "edu-intake-placement-advisor",
+  "version": "1.0.1",
+  "tested_source_commit": "37a3a0d40316eb4b44076c269691a435d443e03f",
+  "tested_source_tree_sha": "e801aaafc631315610559cba3dba405d9c024594",
+  "package_path": "dist/edu-intake-placement-advisor-v1.0.1.zip",
+  "package_sha256": "D70F046BD28442B81ED6970A5AF185D6320D2BBE8595139D00A6722DC7C654F1",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
